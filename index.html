@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <!-- font -->
+        <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Limelight&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <!-- custom -->
+        <link rel="stylesheet" type="text/css" href="Content/css/template.css">
+        <script src="Content/js/script.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row" id="menu_header">
+                <div id="img_header"></div>
+                <nav id="myNavbar" class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tab1" role="tab">Présentation</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tab2" role="tab">Web</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tab3" role="tab">Interface Utilisateur</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" data-bs-toggle="pill" data-bs-target="#tab4" role="tab">Application Mobile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>        
+            </header>
+            <section class="row">
+                <div class="col-md-0 col-lg-1 border_frame"></div>
+                <div class="col-lg-10" id="main_content">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab1" role="tabpanel">
+                            <div class="container-fluid section_heading">
+                                <div id="self-picture">
+                                    <img src="Content/Images/myself.jpg" alt="myPicture" class="rounded-circle img-thumbnail">
+                                </div>
+                                <div class="center-div">
+                                    <h1>Jonathan Lamontagne</h1>
+                                    <h3>Développeur</h3>
+                                    <div id="about">
+                                        Diplômé d’un DEC Technique en développement d’applications informatiques,
+                                        passionné par la programmation j’ai dévié de mes études en électromécanique pour me consacrer à la
+                                        programmation d’applications. Au cours mes études au collège Montmorency, j’ai acquis différentes techniques et
+                                        connaissances nécessaires pour le développement d’applications.
+                                        <br><br>
+                                        Polyvalent, débrouillard, responsable et capable d’apprendre rapidement, je suis doté d’un bon
+                                        esprit de synthèse. Je viens souvent en aide à mes collègues et peux
+                                        bien travailler en équipe.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Compétences</h3></div>
+                                <div class="row skills">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/html.png" class="card-img-top" alt="logo html">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai une bonne fondation dans l'utilisation du HTML.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>HTML 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/css.png" class="card-img-top" alt="logo css">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai une bonne fondation dans l'utilisation du CSS.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>CSS 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/javascript.png" class="card-img-top" alt="logo js">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai moins souvent eu l'occasion de pratiquer coder en javascript, néanmoins je suis en possession de bonne base.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>JAVASCRIPT 75%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/python.png" class="card-img-top" alt="logo python">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai été amené à coder en Python à multiple reprise. Tel que lorsqu'on m'a appris les rudiments de l'intelligence artificielle ou lorsqu'on m'a prenait l'utilisation d'un raspberry pi.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>PYTHON 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/cplus.png" class="card-img-top" alt="logo c++">
+                                            <div class="card-body">
+                                                <p class="card-text">Je n'ai pas souvent eu l'occasion d'utiliser le C++. Mais j'ai néanmoins déjà fait une veille technologique sur ce langage lors de mon avant-dernière session d'école.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>C++ 65%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/php.png" class="card-img-top" alt="logo c#">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai utilisé C# lors de mon apprentissage sur les interface utilisateur.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>C# 75%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/java.png" class="card-img-top" alt="logo java">
+                                            <div class="card-body">
+                                                <p class="card-text">JAVA est le langage informatique auquel j'ai été amener à explorer la plupart des concepts de base de l'informatique, telle que la programmation orienté objet, j'en possède donc de bonne base.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>JAVA 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/sql.png" class="card-img-top" alt="logo sql">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai une bonne maitrise des requête en SQL.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>SQL 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/json.png" class="card-img-top" alt="logo json">
+                                            <div class="card-body">
+                                                <p class="card-text">J'ai apprit la lecture, la modification et la sauvegarde de fichier JSON.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>JSON 75%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="divider" id="skills-divider"></div>
+                                <div class="row skills">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/eclipse.png" class="card-img-top" alt="logo eclipse">
+                                            <div class="card-body">
+                                                <p class="card-text">Eclipse est l'outil que j'ai utilisé pour codé à caque fois que je codais en JAVA.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>ECLIPSE 70%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/visualstudio.png" class="card-img-top" alt="logo visualstudio">
+                                            <div class="card-body">
+                                                <p class="card-text">La serie de microsoft visual studio sont les outils que j'ai utilisé lorsque je codais et que je n'utilsait pas le JAVA.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>VISUAL STUDIO 80%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="card h-100">
+                                            <img src="Content/Images/Logo/ampps.png" class="card-img-top" alt="logo ampps">
+                                            <div class="card-body">
+                                                <p class="card-text">AMPPS est ce que j'utilisait pour voir les résultat de mon code PHP.</p>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                        <h5>AMPPS 75%</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab2" role="tabpanel">
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 1</h3></div>
+                                <div class="project-info">
+                                    <p>Premier site web HTML créer de A à Z.</p>
+                                    <p>L'objectif était de créer un site avec comme sujet principal un de ses hobbys.</p>
+                                    <p>Site entièrement complèter en HTML, CSS et JAVASCRIPT.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/Web/Project%201/Lamontagne_Jonathan_TP4/tp6" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet1/p1-menu.jpg" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet1/p1-plan.jpg" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet1/p1-gabarit1.jpg" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet1/p1-gabarit2.jpg" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/Web/projet1/p1-menu.jpg" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Menu du site avec une animation lorsqu'on notre souris survole une option.</li>
+                                                <li>Plan du premier gabarit.</li>
+                                                <li>Vue du site lors de l'utilisation du premier gabarit.</li>
+                                                <li>Vue du site lors de l'utilisation du second gabarit.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 2</h3></div>
+                                <div class="project-info">
+                                    <p>Premier site web PHP dont la structure à été améliorer tous le long de la session.</p>
+                                    <p>Le CSS n'a pas été une grande priorité lors de ce projet.</p>
+                                    <p>Ce projet m'a apprit plusieurs structure de site dont le modèle MVC.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/Web/Project%202/Babelio" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet2/p2-sql_plan.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet2/p2-livre.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet2/p2-authentification.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet2/p2-adminEdit.JPG" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/Web/projet2/p2-sql_plan.PNG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Plan des tables de la base de données.</li>
+                                                <li>affichage d'un "livre" provenant de la base de données.</li>
+                                                <li>Page d'authentification afin d'accéder à la section admin.</li>
+                                                <li>Page pour éditer un livre provenant de la base de données.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 3</h3></div>
+                                <div class="project-info">
+                                    <p>Création d'un site en PHP à l'aide de cakephp.</p>
+                                    <p>L'objectif était d'utiliser cakephp afin de développer un site PHP.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/Web/Project%203/Session_A2021" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet3/p3-sql_plan.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet3/p3-fonction.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet3/p3-dragAndDrop.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Web/projet3/p3-add.JPG" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/Web/projet3/p3-sql_plan.PNG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Plan des tables de la base de données.</li>
+                                                <li>Plusieurs fonctionnalités du site.</li>
+                                                <li>Page avec la fonctionnalité "glisser et déposser" pour les images.</li>
+                                                <li>Vue de la page d'ajout.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Timeline Projet</h3></div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 1</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;2ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container-inverted">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 2</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;4ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 3</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;5ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab3" role="tabpanel">
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 1</h3></div>
+                                <div class="project-info">
+                                    <p>Codé sur Visual Studio 2019.</p>
+                                    <p>Codé en C#.</p>
+                                    <p>Objectif crée une interface utilisateur pour la gestion de notes et de groupes scolaire.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/UI/Project%201/3D4_TP1" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet1/p1-delete.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet1/p1-exit.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet1/p1-moyenne.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet1/p1-orderby.PNG" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/UI/projet1/p1-delete.PNG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Interface après la suppression d'un étudiant dans la liste.</li>
+                                                <li>Quitter l'interface.</li>
+                                                <li>Calcul de la moyenne générale.</li>
+                                                <li>Liste ordonnée en ordre croissant.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 2</h3></div>
+                                <div class="project-info">
+                                    <p>Codé sur Visual Studio 2019.</p>
+                                    <p>Codé en C#.</p>
+                                    <p>Objectif crée une interface utilisateur pour faire une réservation d'un site pour faire du camping.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/UI/Project%202/3D4_TP2/tp2-seul-Moondjin" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet2/p2-form.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet2/p2-reserv-info.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet2/p2-save.PNG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/UI/projet2/p2-select.PNG" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/UI/projet2/p2-form.PNG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Formulaire pour faire une réservation.</li>
+                                                <li>Affichage d'une réservation.</li>
+                                                <li>Sauvegarde de réservation en fichier texte.</li>
+                                                <li>Sélection du site pour faire du camping.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Timeline Projet</h3></div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 1</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;3ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container-inverted">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 2</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;3ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab4" role="tabpanel">
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 1</h3></div>
+                                <div class="project-info">
+                                    <p>Projet codé sur Android Studio.</p>
+                                    <p>Objectif est de créer une application pour faire réserver une table à un restaurant.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/Mobile/Project%201/TP1JonathanLamontagne" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet1/p1-landscape-ui.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet1/p1-reservation.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet1/p1-ui.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet1/p1-ui-en.jpg" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/Mobile/projet1/p1-landscape-ui.JPG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Interface en mode "Landscape".</li>
+                                                <li>Affichage de la liste de réservation.</li>
+                                                <li>Interface utilisateur en français.</li>
+                                                <li>Interface utilisateur en anglais.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Projet 2</h3></div>
+                                <div class="project-info">
+                                    <p>Projet codé sur Android Studio.</p>
+                                    <p>Utilise Firebase pour héberger sa base de données.</p>
+                                    <p>Objectif est de créer une application pour gérer une base de données.</p>
+                                    <a class="project-link" href="https://github.com/Jonathan-Lamontagn3/School-Projects/tree/main/Mobile/Project%202/5J6_TravailPratique2" target="_blank"><span class="bi-briefcase-fill"></span></a>
+                                </div>
+                                <div class="row project">
+                                    <div class="col-lg-6 img-container">
+                                        <div class="row">
+                                            <ul class="list-img">
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet2/p2-display.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet2/p2-profil.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet2/p2-show.JPG" class="small-img"></li>
+                                                <li class="small-img-size"><img src="Content/Images/Mobile/projet2/p2-update.JPG" class="small-img"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <img src="Content/Images/Mobile/projet2/p2-display.JPG" alt="..." class="big-img img-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 desc-container">
+                                        <div class="list-desc">
+                                            <ul>
+                                                <li>Menu principal et formulaire pour ajouter un livre dans la base de données.</li>
+                                                <li>Interface pour le profil de l'utilisateur.</li>
+                                                <li>Liste d'objets contenue dans la base de données.</li>
+                                                <li>Interface pour faire une mise à jour d'un objet de la base de données.</li>
+                                            </ul>
+                                        </div >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-fluid section_heading">
+                                <div class="divider center-div"></div>
+                                <div class="center-div"><h3>Timeline Projet</h3></div>
+                                <ul class="timeline">
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 1</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;5ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="timeline-badge"><span class="bi-briefcase-fill"></span></div>
+                                        <div class="timeline-panel-container-inverted">
+                                            <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <h3>Projet 2</h3>
+                                                    <p class="text-muted"><span class="bi-clock-fill"></span>&nbsp;&nbsp;5ème session</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-0 col-lg-1 border_frame"></div>
+            </section>
+            <footer class="row text-center justify-content-center">
+                <h2>Contact</h2>
+                <div class="col-lg-4">
+                    <div id="mailContainer">
+                        <a href="mailto:jonathanlamontagne03@gmail.com"><img src="Content/Images/Logo/mail.png" alt="Logo email" class="logoFooter"></a>
+                        <span id="mail">: jonathanlamontagne03@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <a href="https://www.linkedin.com/in/jonathan-lamontagne/" target="_blank"><img src="Content/Images/Logo/linkedin.png" alt="Logo linkedin" class="logoFooter"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="https://github.com/Jonathan-Lamontagn3" target="_blank"><img src="Content/Images/Logo/github.png" alt="Logo github" class="logoFooter"></a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
